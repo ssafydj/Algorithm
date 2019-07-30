@@ -16,3 +16,23 @@ def height(data):
 
 # 교재 연습문제 Baby-gin game (p.20)
 # 문제 접근법: (6C3 * 3C3) / 2*1 으로 경우의수를 구하고 나열 확인(완전검색)
+
+
+# 일의 자리 숫자를 지워 나가는 방법
+num = 123456
+
+arr = []
+
+arr.append(num % 10) # 6제거
+num // = 10    
+
+# 반복
+arr.append(num % 10) # 5제거
+num // = 10  
+
+# 반복...
+
+# 반복문으로 한번에 표현
+while num >0:
+        arr.append(num % 10)
+        num // = 10

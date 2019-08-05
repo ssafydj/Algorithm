@@ -14,7 +14,7 @@ for i in range(N):
 
 for i in range(N):
     for j in range(M):
-        print(arr[j][i], end=' ')
+       print(arr[j][i], end=' ')
 
 
 for diag in range(0, N + M -1):
@@ -23,11 +23,9 @@ for diag in range(0, N + M -1):
     y = diag if diag < M else M - 1
 
     while x < N and y >= 0:
-        print(arr[x][y], end='')
+        print(arr[x][y], end=' ')
         x += 1
         y -= 1
-
-for reverse in range(N + M -1, 0, -1):
-
-
+print()
+# for reverse in range(0, N + M -1):
 

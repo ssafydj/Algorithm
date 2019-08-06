@@ -7,21 +7,21 @@ arr= [
 ]
 
 MAX = 0
-# 행 단위 합 구하기
-# for i in range(5):
-#     SUM = 0
-#     for j in range(5):
-#         SUM += arr[i][j]
-#     MAX = max(SUM, MAX)
-# print(MAX)
+#행 단위 합 구하기
+for i in range(5):
+    SUM = 0
+    for j in range(5):
+        SUM += arr[i][j]
+    MAX = max(SUM, MAX)
+print(MAX)
 
-# # 열 단위 합 구하기
-# for i in range(5):
-#     SUM = 0
-#     for j in range(5):
-#         SUM += arr[j][i]
-#     MAX = max(SUM, MAX)
-# print(MAX)
+# 열 단위 합 구하기
+for i in range(5):
+    SUM = 0
+    for j in range(5):
+        SUM += arr[j][i]
+    MAX = max(SUM, MAX)
+print(MAX)
 
 # # 대각 합 구하기
 # SUM = 0

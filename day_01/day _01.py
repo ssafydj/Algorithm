@@ -8,7 +8,7 @@ for j in range(n -1, 0, -1):
 
 ​        if arr[i] > arr[i + 1]:
 
-​            arr[i], arr[i + 1] = arr[i + 1], arr[i?]
+​            arr[i], arr[i + 1] = arr[i + 1], arr[i]
 
 print(arr)
 
@@ -45,9 +45,6 @@ for i in range(1, len(arr)):
 ​    if arr[i] < MIN:
 
 ​        MIN = arr[i]
-
-
-
 print(MIN)
 
 

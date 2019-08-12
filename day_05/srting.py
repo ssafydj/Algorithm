@@ -1,8 +1,6 @@
 #중간을 기준으로 좌/우측의 문자열이 같으면 회문
 
 arr = 'algorithm'
-
-arr = list(arr) # list로 쪼개고
 n = len(arr)
 
 # Solution 1
@@ -13,8 +11,6 @@ print(arr)
     # print(''.join(arr))  # list -> string
 
 # Solution 2
-print(arr[::-1]) 
-
 if arr[::-1] == arr:
     result = 1
 else:

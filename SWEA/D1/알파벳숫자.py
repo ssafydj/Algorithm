@@ -1,22 +1,15 @@
 import sys
 sys.stdin =open("2050.txt", "r")
 tc = input()
-
-#print(max(tc))
-for num, alpa in enumerate([tc]):
-    print(num)
-
-
-# dic = {}
-# for i in range(26):
-#     #print(tc[i], end=' ')
-
-    
-    
-# enumerate
-# update .get
-
-
-
-
+# print(type(tc))
+#
+# # print(tc[0])
+# result = {}
+# for char in tc:
+#
+#
+# print(result)
+#
+#
+# # str 이니까 index 접근가능 -> str의 index + 1 출력
 

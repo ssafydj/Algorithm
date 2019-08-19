@@ -1,15 +1,12 @@
 import sys
 sys.stdin =open("2050.txt", "r")
 tc = input()
-# print(type(tc))
-#
-# # print(tc[0])
-# result = {}
-# for char in tc:
-#
-#
-# print(result)
-#
-#
-# # str 이니까 index 접근가능 -> str의 index + 1 출력
+
+
+alpabet_list = list(tc)
+number_list = list(range(1, 27))
+total_list = dict(zip(alpabet_list, number_list))
+# print(total_list)
+for num in total_list.values():
+    print(num, end=' ')
 

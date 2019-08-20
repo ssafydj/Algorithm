@@ -3,38 +3,25 @@ sys.stdin = open("1945.txt", "r")
 
 tc = int(input())
 # print(tc)
+
+primea = 0
+nums = [2, 3, 5, 7, 11]
 for r in range(1, tc+1):
-    n = int(input())
-    # print(n)
+    r = int(input())
+    # print(r)
 
-    
+    for num in nums:
+        while r % num == 0:
+            primea += 1
+            r = r / num
 
-    # print('#{} {} {} {} {} {}'.format(r, a, b, c, d, e))
+        if primea == []:
+            primea += 0
 
-
-
-
-    i = 0   # 2) 수식에 사용되는 초기값 설정  
-    while i < 5:
-        print(i)
-        i += 1 
+    print(primea)
 
 
 
-    # a = n // 2
-    # n = n % (2^a)
-
-    # b = n // 3
-    # n = n % (3^b)
-
-    # c = n // 5
-    # n = n % (5^c)
-
-    # d = n // 7
-    # n = n % (7^d)
-
-    # e = n // 11
-    # n = n % (11^e)
 
 
 

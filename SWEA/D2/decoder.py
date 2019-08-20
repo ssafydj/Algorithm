@@ -6,5 +6,8 @@ tc = int(input())
 
 for _ in range(1, tc + 1):
     n = input()
-    print(ord(n[0]))
+    print(n)
+    # char = ord(n[1])
+    # print(char)
+
 

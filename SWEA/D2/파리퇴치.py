@@ -1,12 +1,11 @@
 import sys
-sys.stdin = open('bomber3.txt', 'r')
-
+sys.stdin = open('2001.txt', 'r')
 tc = int(input())
-# print(tc)
-for t in range(tc+1):
+
+for t in range(1, tc+1):
     n, m = list(map(int, input().split()))
     arr = [list(map(int, input().split())) for _ in range(n)]
-    # print(n)
+    # print(n, m)
     # print(arr)
 
     sum = 0
@@ -17,9 +16,8 @@ for t in range(tc+1):
             for r in range(i, i+m):
                 for c in range(j, j+m):
                     sum += arr[r][c]
-                if max_sum <= sum:
-                    max_sum = sum
-
-    print('#{} {} {} {}'.format(t+1 ,i, j, max_sum))
+                    if sum >= max_sum:
+                        max_sum = sum
+    print('#{} {}'.format(t , max_sum))
 
 

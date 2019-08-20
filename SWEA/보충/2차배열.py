@@ -9,17 +9,16 @@ for t in range(1, tc + 1):
 
     # 행 우선 순회
 
-    ## 모든 자료의 합 구하기
-    # total = 0
-    # row_sum = col_sum = 0
-
-    # for i in range(N): # 0~n-1 까지
-    #     row_sum = 0    # 새로운 행에 들어갈 때 마다 초기화( 행 마다 값을 구하기 위해서)
-    #     col_sum = 0
-    #     for j in range(N):  # 0~n-1까지
-    #         row_sum += arr[i][j]  # 행우선
-    #         col_sum += arr[j][i]  # 열우선
-    #     print(row_sum, col_sum)
+    # 모든 자료의 합 구하기
+    total = 0
+    row_sum = col_sum = 0
+    for i in range(N): # 0~n-1 까지
+        row_sum = 0    # 새로운 행에 들어갈 때 마다 '초기화'(행 마다 값을 구하기 위해서)
+        col_sum = 0
+        for j in range(N):  # 0~n-1까지
+            row_sum += arr[i][j]  # 행우선
+            col_sum += arr[j][i]  # 열우선
+        print(row_sum, col_sum)
 
 
     # 행과 열의 합에 최소값 구하기

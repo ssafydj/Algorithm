@@ -9,7 +9,7 @@ for t in range(tc+1):
     # print(n)
     # print(arr)
 
-    sum = 0
+
     max_sum = 0
     for i in range(n-m+1):      #n*n 행렬에서 m 크기의 상자가 갈수 있는 최대 좌표는 (n-m+1)*(n-m+1)
         for j in range(n-m+1):

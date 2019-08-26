@@ -6,7 +6,7 @@ tc = int(input())
 for t in range(1, tc+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
-    # print(arr)
+    #     # print(arr)
     max_sum = x= y= 0 # 최대값 저장 및 행과 열 번호
     for r in range(N):
         for c in range(N):

@@ -15,9 +15,9 @@ for i in range(1, tc+1):
             for c in range(c1, c2+1): # 세로 길이
                 arr[r][c] += color  # 각 좌표에 색(1 or 2)기입
 
-                for column in range(10):    # 위에 만든 arr에
-                    for row in range(10):
-                        if arr[column][row] == 3:   # 각 좌표에 색이 3(1+2)인 좌표 구하기
+                for row in range(10):    # 위에 만든 arr에
+                    for column in range(10):
+                        if arr[row][column] == 3:   # 각 좌표에 색이 3(1+2)인 좌표 구하기
                             cnt += 1
                             arr[r][c] = 0
     print('#{} {}'.format(i, cnt))

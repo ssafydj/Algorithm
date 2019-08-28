@@ -14,19 +14,18 @@ for tc in range(1, T+1):
     # print(x1, y1, x2, y2, color)
 
         # 색칠을 할 수 있는지 판단
-        draw = True
-        if draw == 1:
-            for x in range(x1, x2+1):
-                for y in range(y1, y2+1):
-                    if arr[x][y] > color:       # 명도가 같거나 작으면 칠할 수 없다.
-                        draw = 0
-
+        draw = True # do!
+        for x in range(x1, x2+1):
+            for y in range(y1, y2+1):
+                if arr[x][y] > color:       # 새로운 명도가 기존 보다 큰 경우에만 덮어쓸 수 있다.
+                    draw = False # don't!
         # 색칠하기
-        if draw == 1:
+        if draw == True:
             for x in range(x1, x2+1):
                 for y in range(y1, y2+1):
                     arr[x][y] = color
 
+        # 각 명도의 갯수 구하기
         cnt = [0] * 11      # 명도 0~10 까지 11개 넣을 공간
         for x in range(n):
             for y in range(m):

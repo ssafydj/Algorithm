@@ -12,11 +12,11 @@ for tc in range(1, t+1):
         # print(x1, y1, x2, y2, color)
 
         # 1. 색칠할 수 있는지 판단
-        draw = True
+        draw = True # 일단 모두 그리는 걸로 설정하고
         for r in range(x1, x2+1):
             for c in range(y1, y2+1):
                 if arr[r][c] > color:
-                    draw = False
+                    draw = False    # 특정 경우에만 그리지 않는걸로
         # 2. 색칠하기
         if draw:
             for r in range(x1, x2 + 1):

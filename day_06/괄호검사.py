@@ -7,62 +7,28 @@ for k in range(1, tc+1):
     paren = input().split()
     # print(paren)
 
-    result = []
+    stack = []
+    ans = True
     for ch in paren:
-        if ch == '(':
-            result.append(ch)
-        else:
-            if len(result) == 0:
+        if ch == '(' or ch == '{':
+            stack.append(ch)
+        elif ch ==')' or ch =='}':
+            if len(stack) == 0:
+                ans = False
                 break
-            if ')' and result.pop !='(':
-                return 0
-    print(result)
+
+                tmp = stack.pop()
+
+                if ch == ')' and tmp != '(':
+                    ans = False
+                    break
+                if ch == '}' and tmp != '{':
+                    ans = False
+                    break
+    if ans and len(stack) != 0:
+        ans = False
+
+    print(ans)
 
 
 
-
-
-
-
-
-
-
-
-    # S = []  # 저장소
-    #
-    #
-    # def push(item):
-    #     S.append(item)
-    #
-    #
-    # def pop():  # 항상 empty 상태 체크
-    #     return S.pop()
-    #
-    #
-    # def isEmpty():
-    #     return len(S) == 0
-    #
-    # for ch1 in paren:
-    #     if ch1 == '(':
-    #         push(ch1)
-    #
-    #     else:
-    #         if isEmpty():
-    #             # 잘못된 표현
-    #             break
-    #         if ')' and pop() != '(':
-    #             # 잘못된 표현
-    #             break
-    #
-    # for ch2 in paren:
-    #     if ch2 == '{':
-    #         push(ch2)
-    #     else:
-    #         if isEmpty():
-    #             # 잘못된 표현
-    #             break
-    #         if '}' and pop() != '{':
-    #             # 잘못된 표현
-    #             break
-    # print(ch1)
-    # print(ch2)

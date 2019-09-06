@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ffe9040-0cac-416e-b24f-9110d91cfcb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/마그네틱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/파리퇴치.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/폭탄1_복습2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/폭탄2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/폭탄2_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../보충/bomber2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../보충/bomber2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../보충/폭격3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../보충/폭격3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../보충/폭격작전1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/수업.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/수업.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기출2.py" beforeDir="false" afterPath="$PROJECT_DIR$/기출2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/모의시험1_복습.py" beforeDir="false" afterPath="$PROJECT_DIR$/모의시험1_복습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/.idea/쥬피터.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../쥬피터/03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../day_07/마그네틱.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_07/마그네틱.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,21 +14,23 @@
     <session id="1035566266">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="21" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -108,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,11 +98,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../day_09" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -275,9 +253,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,6 +387,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/기출.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
